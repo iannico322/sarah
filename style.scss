@@ -1,26 +1,31 @@
 @import url('https://fonts.googleapis.com/css2?family=Fasthand&family=Montserrat:wght@200&display=swap');
 body{
-    background-color: aliceblue;
-    height: 100vh;
-    width: 100vw;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
+  margin: 0;
+  
+
+    
+  }
+
+  .con{
     display: flex;
     align-items: center;
-    background-color: white;
     justify-content: center;
+    height: 100vh;
+    width: 100vw;
+  }
+
+  .main{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+    
   }
   
 
-  .main{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-    width: 100vw;
-    
-  }
+  
   .hidden{
     
 
@@ -33,7 +38,7 @@ body{
 
     height: 30%;
     .musicplay{
-        display: none;
+        display: flex;
     }
     p{
      
