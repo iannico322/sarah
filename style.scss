@@ -1,10 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Fasthand&family=Montserrat:wght@200&display=swap');
+:root{
+  font-family: 'Montserrat', sans-serif;
+}
 body{
   margin: 0;
   
 
     
   }
+
 
   .con{
     display: flex;
@@ -16,11 +20,29 @@ body{
 
   .main{
     position: relative;
+
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     height: 100%;
     width: 100%;
+    .GIF{
+      height: 200px;
+      object-fit: contain;
+    }
+    h1{
+      width: 70%;
+      font-size: 25px;
+      text-align: center;
+    }
+    .option{
+      display: flex;
+    
+      gap: 20px;
+      align-items: center;
+
+    }
     
   }
   
