@@ -12,7 +12,7 @@ const GIF = document.querySelector(".GIF")
 
 Yes.addEventListener("click",()=>{
   GIF.src = "yes.gif"
-  text.textContent = " See you tommorow at Jolibee Kauswagan my Palangling "
+  text.textContent = " See you tommorow at Jollibee Kauswagan my Palangling "
   musicc.play()
   No.style.display="none"
   clearTimeout(timeoutId);
