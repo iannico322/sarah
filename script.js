@@ -3,11 +3,15 @@ const No = document.querySelector(".buttonNo")
 
 const text = document.querySelector(".text")
 
+const sub = document.querySelector(".sub")
+
+
 
 const musicc = document.querySelector(".musicplay")
 
 
 const GIF = document.querySelector(".GIF")
+const hearts = document.querySelector(".bubbling-heart");
 
 
 Yes.addEventListener("click",()=>{
@@ -15,11 +19,14 @@ Yes.addEventListener("click",()=>{
   text.textContent = " See you tommorow at Jollibee Kauswagan my Palangling "
   musicc.play()
   No.style.display="none"
+  hearts.style.visibility = "visible";
+  sub.textContent = ""
   clearTimeout(timeoutId);
 })
 
 No.addEventListener("click",()=>{
   GIF.src = "sad.gif"
+  sub.textContent = " Click the Yes huhuhuhu :(  "
 
   bounce()
 
@@ -27,7 +34,7 @@ No.addEventListener("click",()=>{
 
 function bounce() {
 
-  text.textContent = " Click the Yes huhuhuhu :(  "
+  
   No.style.position = "absolute";
  
   var height = window.innerHeight - No.offsetHeight;

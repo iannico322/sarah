@@ -40,6 +40,10 @@ body {
   text-align: center;
 }
 
+.main .sub {
+  color: rgba(36, 36, 36, 0.957);
+}
+
 .main .option {
   display: flex;
   gap: 20px;
